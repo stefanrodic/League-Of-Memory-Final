@@ -11,7 +11,7 @@
    Igra se takodje završava u koliko istekne vreme za koje je potrebno da se igra reši.
 5. Pobednik je onaj koji igricu reši u što kraćem vremenu i što manje poteza.
 
-# Primenjene metode u kreiranju projekta:
+# Primenjene tehnologije u kreiranju projekta:
 
 * Html
 * CSS
