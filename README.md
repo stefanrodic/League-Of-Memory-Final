@@ -7,7 +7,7 @@
 2. Ako se karte poklapaju, obe karte ostaju okrenute.
    Ako se karte ne podudaraju, obe karte su okrenute licem prema dole.
 3. Vreme za završavanje igre je 30 sekundi.
-4. Igra se završava kada se sve kartice pravilno podudaraju.
+4. Igra se završava kada se sve karte pravilno podudaraju.
    Igra se takodje završava u koliko istekne vreme za koje je potrebno da se igra reši.
 5. Pobednik je onaj koji igricu reši u što kraćem vremenu i što manje poteza.
 
