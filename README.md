@@ -17,3 +17,10 @@
 * CSS
 * JavaScript
 * Bootsrap
+
+# Funkcije samog programa:
+
+ * Mešanje karata
+ * Aktiviranje tajmera
+ * Izračunavanje rezultata
+ * Provera uparivanja dve iste karte
