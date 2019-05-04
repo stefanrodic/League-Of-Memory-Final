@@ -3,58 +3,71 @@
 
 <head>
     <title>League of Memory</title>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel:700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <link rel="shortcut icon" href="pics/icon.png">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta charset="UTF-8">
-    <script src="main.js"> </script>
+
 </head>
 
 <body>
 
-    <h1>League Of Mermory</h1> <span> Time remaining </span> <span> Clicks </span>
+    <h1>League Of Memory</h1>
+    <div id="infomem">
+        <span> Time remaining: <span id="timer">0:30</span>
+        </span>
+        <span> Clicks: <span id="counter">
+                0</span>
+        </span>
+        <span> Score: <span id="result"> 0 </span> </span>
 
+
+    </div>
     <div class="grid-container">
-        <div class="card" type="jax" id="0"> <img class="logo side back" src="pics/logo.png">
-            <img class="avatar side front" src="pics/jax.jpg"></div>
-        <div class="card" type="jax" id="1"> <img class="logo side back" src="pics/logo.png">
-            <img class="avatar side front" src="pics/jax.jpg"></div>
-        <div class="card" type="caitylyn" id="2"> <img class="logo side back" src="pics/logo.png">
-            <img class="avatar side front" src="pics/caitylyn.jpg"></div>
-        <div class="card" type="caitylyn" id="3"> <img class="logo side back" src="pics/logo.png">
-            <img class="avatar side front" src="pics/caitylyn.jpg"></div>
-        <div class="card" type="lucian"> <img class="logo side back" src="pics/logo.png">
-            <img class="avatar side front" src="pics/lucian.jpg"> </div>
-        <div class="card" type="lucian"> <img class="logo side back" src="pics/logo.png">
-            <img class="avatar side front" src="pics/lucian.jpg"> </div>
-        <div class="card" type="malphit"> <img class="logo side back" src="pics/logo.png">
-            <img class="avatar side front" src="pics/malphit.jpg"> </div>
-        <div class="card" type="malphit"> <img class="logo side back" src="pics/logo.png">
-            <img class="avatar side front" src="pics/malphit.jpg"> </div>
-        <div class="card" type="fortune"> <img class="logo side back" src="pics/logo.png">
-            <img class="avatar side front" src="pics/miss-fortune.jpg"></div>
-        <div class="card" type="fortune"> <img class="logo side back" src="pics/logo.png">
-            <img class="avatar side front" src="pics/miss-fortune.jpg"></div>
-        <div class="card" type="pantheon"> <img class="logo side back" src="pics/logo.png">
-            <img class="avatar side front" src="pics/pantheon.jpg"></div>
-        <div class="card" type="pantheon"> <img class="logo side back" src="pics/logo.png">
-            <img class="avatar side front" src="pics/pantheon.jpg"></div>
-        <div class="card" type="xayah"> <img class="logo side back" src="pics/logo.png">
-            <img class="avatar side front" src="pics/xayah.jpg"></div>
-        <div class="card" type="xayah"> <img class="logo side back" src="pics/logo.png">
-            <img class="avatar side front" src="pics/xayah.jpg"></div>
-        <div class="card" type="zed"> <img class="logo side back" src="pics/logo.png">
-            <img class="avatar side front" src="pics/zed.jpg"></div>
-        <div class="card" type="zed"> <img class="logo side back" src="pics/logo.png">
-            <img class="avatar side front" src="pics/zed.jpg"></div>
+        <div class="card"> <img class="logo side back" src="pics/logo.png" alt="logo">
+            <img class="avatar side front" src="pics/jax.jpg" alt="jax"></div>
+        <div class="card"> <img class="logo side back" src="pics/logo.png" alt="logo">
+            <img class="avatar side front" src="pics/jax.jpg" alt="jax"></div>
+        <div class="card"> <img class="logo side back" src="pics/logo.png" alt="logo">
+            <img class="avatar side front" src="pics/caitylyn.jpg" alt="caitylyn"></div>
+        <div class="card"> <img class="logo side back" src="pics/logo.png" alt="logo">
+            <img class="avatar side front" src="pics/caitylyn.jpg" alt="caitylyn"></div>
+        <div class="card"> <img class="logo side back" src="pics/logo.png" alt="logo">
+            <img class="avatar side front" src="pics/lucian.jpg" alt="lucian"> </div>
+        <div class="card"> <img class="logo side back" src="pics/logo.png" alt="logo">
+            <img class="avatar side front" src="pics/lucian.jpg" alt="lucian"> </div>
+        <div class="card"> <img class="logo side back" src="pics/logo.png" alt="logo">
+            <img class="avatar side front" src="pics/malphit.jpg" alt="malphit"> </div>
+        <div class="card"> <img class="logo side back" src="pics/logo.png" alt="logo">
+            <img class="avatar side front" src="pics/malphit.jpg" alt="malphit"> </div>
+        <div class="card"> <img class="logo side back" src="pics/logo.png" alt="logo">
+            <img class="avatar side front" src="pics/miss-fortune.jpg" alt="miss-fortune"></div>
+        <div class="card"> <img class="logo side back" src="pics/logo.png" alt="logo">
+            <img class="avatar side front" src="pics/miss-fortune.jpg" alt="miss-fortune"></div>
+        <div class="card"> <img class="logo side back" src="pics/logo.png" alt="logo">
+            <img class="avatar side front" src="pics/pantheon.jpg" alt="pantheon"></div>
+        <div class="card"> <img class="logo side back" src="pics/logo.png" alt="logo">
+            <img class="avatar side front" src="pics/pantheon.jpg" alt="pantheon"></div>
+        <div class="card"> <img class="logo side back" src="pics/logo.png" alt="logo">
+            <img class="avatar side front" src="pics/xayah.jpg" alt="xayah"></div>
+        <div class="card"> <img class="logo side back" src="pics/logo.png" alt="logo">
+            <img class="avatar side front" src="pics/xayah.jpg" alt="xayah"></div>
+        <div class="card"> <img class="logo side back" src="pics/logo.png" alt="logo">
+            <img class="avatar side front" src="pics/zed.jpg" alt="zed"></div>
+        <div class="card"> <img class="logo side back" src="pics/logo.png" alt="logo">
+            <img class="avatar side front" src="pics/zed.jpg" alt="zed"></div>
     </div>
 
-    <p> You need to dig deep!</p>
+    <script src="main.js"> 
+    </script>
 
 </body>
 
+
+ 
 
 
 </html>
